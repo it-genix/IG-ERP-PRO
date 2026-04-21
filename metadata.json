@@ -1,0 +1,8 @@
+{
+  "name": "IG-ERP PRO",
+  "description": "Enterprise WordPress ERP with AI-powered attendance, shift management, real-time GPS tracking, and advanced employee lifecycle management.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

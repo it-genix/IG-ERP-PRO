@@ -1,0 +1,118 @@
+.wrap.ig-erp-admin table {
+    margin-top: 10px;
+}
+
+.status-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.status-active {
+    background: #e6fffa;
+    color: #234e52;
+}
+
+.status-inactive {
+    background: #fff5f5;
+    color: #9b2c2c;
+}
+
+.status-on-leave {
+    background: #ebf8ff;
+    color: #2c5282;
+}
+
+/* Modal Styles */
+.ig-erp-modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.ig-erp-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.close-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+.profile-section {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.profile-section h4 {
+    margin-top: 0;
+    border-left: 4px solid #2271b1;
+    padding-left: 10px;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.profile-item label {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #64748b;
+    font-weight: bold;
+}
+
+.profile-item span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shift-highlight {
+    background: #f0f7ff;
+    border: 1px solid #c2e0ff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shift-highlight .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #64748b;
+    font-weight: bold;
+}
+.shift-highlight .value {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2271b1;
+}
